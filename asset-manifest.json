@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/assignment3_rone/static/css/main.31d6cfe0.css",
+    "main.js": "/assignment3_rone/static/js/main.3ad0ab40.js",
+    "index.html": "/assignment3_rone/index.html",
+    "main.3ad0ab40.js.map": "/assignment3_rone/static/js/main.3ad0ab40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.3ad0ab40.js"
+  ]
+}
