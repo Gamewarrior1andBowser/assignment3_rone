@@ -9,3 +9,71 @@ body {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
 }
+
+.textbar {
+  background-color: #fff;
+  color: #000;
+  width: 50svh;
+  margin: 10px;
+  padding: 5px;
+}
+
+.textbar, .textbar input {
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.textbar input[type='button'] {
+  width: 60px;
+  background-color: #d6d6d6;
+}
+
+.textbar input[type='text'] {
+  width: 400px;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.tag {
+  height: 100%;
+  min-height: 50px;
+  width: 5px;
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.complete {
+  background-color: #adff2f;
+}
+
+.incomplete {
+  background-color: #ffa500;
+}
+
+.task {
+  background-color: #3d3e47;
+  padding: 5px;
+  width: 30svh;
+  flex-direction: row;
+}
+
+h2 {
+  text-align: center;
+}
+
+header {
+  height: 40px;
+  padding-top: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  color: #d6d6d6;
+}

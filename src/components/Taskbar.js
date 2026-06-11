@@ -6,10 +6,10 @@ function Taskbar() {
   let count = 0;
   return(
     <>
-      <section>
+      <section className='flex center'>
         <div className='textbar'>
-          <input type='text'/>
-          <button title='Add'/>
+          <input type='text' placeholder='New Task'/>
+          <input type='button' value='Add'/>
         </div>
       </section>
       <section>
