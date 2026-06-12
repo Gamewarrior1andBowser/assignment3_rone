@@ -3,7 +3,21 @@ import Note from './Note';
 
 function Taskbar() {
   const tasks = [{id: 0, name: "test", date: "June 11, 8:34 am", isCompleted: false}];
+  const [id, setId] = useReducer(0);
+  const [input, setInput] = useReducer('');
   let count = 0;
+
+  const Toggle = () => {
+    tasks[id].isCompleted = !tasks[id].isCompleted;
+  }
+  const Delete = () => {
+    tasks.pop(id)
+  }
+  const Save = () => {
+    tasks[id].name = input;
+  }
+
+
   return(
     <>
       <section className='flex center'>
@@ -15,7 +29,8 @@ function Taskbar() {
       <section>
         {tasks.map((data) => (
           <Note id={data.id} name={data.name} date={data.date} 
-          isCompleted={data.isCompleted}/>
+          isCompleted={data.isCompleted} setId={setId} ToggleNote={Toggle}
+          DeleteNote={Delete} SaveNote={Save} setInput={setInput}/>
         ))}
       </section>
     </>

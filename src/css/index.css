@@ -77,3 +77,16 @@ header {
 p {
   color: #d6d6d6;
 }
+
+.nope {
+  cursor: not-allowed;
+}
+
+.green {
+  color: #adff2f;
+}
+
+.FaEdit, .FaTrash, .FaCheck {
+  margin: 5px;
+  cursor: pointer;
+}
